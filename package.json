@@ -5,8 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "lint": "npx markdownlint-cli docs/*.md --fix",
-    "spell": "npx cspell docs/*.md --cache --show-suggestions --no-progress",
+    "lint": "npx markdownlint-cli *.md --fix",
+    "spell": "npx cspell *.md --cache --show-suggestions --no-progress",
     "check": "npm run lint && npm run spell",
     "build": "npx tsx ./src/generate-fb2.tsx",
     "start": "npm run check && npm run build"
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/tsidukciya/tsidukciya#readme",
   "devDependencies": {
     "@cspell/dict-ru_ru": "^2.2.4",
-    "cspell": "^8.18.1",
+    "cspell": "^8.19.4",
     "markdownlint-cli": "0.46.0",
     "tsx": "^4.19.3",
     "xmlbuilder2": "^3.1.1"
