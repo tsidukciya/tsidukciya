@@ -4,6 +4,7 @@
     "no-inline-html": false,
     "no-emphasis-as-heading": false,
     "no-multiple-blanks": false,
+    "table-column-style": false,
     "no-trailing-punctuation": {
         "punctuation": "."
     }
